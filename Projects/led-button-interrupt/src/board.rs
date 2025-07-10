@@ -1,0 +1,12 @@
+use crate::mcu::{GPIO_PIN_0, GPIOD_BASE, GPIO_PIN_12, GPIO_PIN_13, GPIO_PIN_14, GPIO_PIN_15};
+
+pub const GREEN_LED_PIN: u32 = GPIO_PIN_12;
+pub const GREEN_LED_PORT: u32 = GPIOD_BASE;
+pub const ORANGE_LED_PIN: u32 = GPIO_PIN_13;
+pub const ORANGE_LED_PORT: u32 = GPIOD_BASE;
+pub const RED_LED_PIN: u32 = GPIO_PIN_14;
+pub const RED_LED_PORT: u32 = GPIOD_BASE;
+pub const BLUE_LED_PIN: u32 = GPIO_PIN_15;
+pub const BLUE_LED_PORT: u32 = GPIOD_BASE;
+pub const BUTTON_PIN: u32 = GPIO_PIN_0;
+pub const BUTTON_PORT: u32 = GPIOD_BASE;
